@@ -5,6 +5,7 @@ const commonColumnProperties: ColDef = {
   filter: true,
   floatingFilter: true,
   suppressMenu: true,
+  sortingOrder: ['asc', 'desc', null],
 };
 
 export const columnDefs: ColDef[] = [
