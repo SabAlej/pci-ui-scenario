@@ -88,3 +88,4 @@ And it generates Licence Errors:
 The other possibility was to work with `Cell Text Selection` and the options `enableCellTextSelection=true` `ensureDomOrder=true`, but it doesn't work as proposed.
 
     
+I wanted also to do some tests and arrange a little the UI in order to be responsive.
