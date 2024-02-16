@@ -78,5 +78,13 @@ To replace the default "React App" that shows on the tab for this window, i went
 
 Finally to add a Title, I went to `App.tsx` and add an `<h1>`.
 
+5. Task #5: In order to copy properly the data in order and just the range selected i had to install as a dependency `"ag-grid-enterprise": "^28.2.1"`. I read this part:
+***Do not install any new packages. We should be able to view your UI after running "npm install" and "npm start".***
+And I'm not sure about the rule here, because if i push the `package.json`, it will work with `npm install`, but on the other side, I did install a new package as dependency (also I chose a compatible version).
+
+And it generates Licence Errors:
+<img src="./public/errors.png" alt="Errors" title="Console Errors">
+
+The other possibility was to work with `Cell Text Selection` and the options `enableCellTextSelection=true` `ensureDomOrder=true`, but it doesn't work as proposed.
 
     
