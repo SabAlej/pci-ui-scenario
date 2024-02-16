@@ -64,3 +64,17 @@ Within this repo is a demo UI that our team needs to make some changes to before
 7. Lastly, this grid is going to go to production soon, and other developers will begin doing work on this project. While creating this demo, considerations were not made to keep the code clean and organized. Please organize this codebase so that it is easier to find and make changes to components, as well as finding any interfaces, types, or helper functions.
 
 After completing this project, please push any changes you made to a publicly accessible GitLab or GitHub repository and include that link in an email to your contact at PCI. Thank you!
+
+
+## Scenario Tasks Complition
+
+1. Task #1:
+    The first thing i always do to start is open the console when I run a project. I got a small warning this time:
+<img src="./public/warning.png" alt="Warning" title="Console Warning">
+   
+Then, i got rid of the `enableRowGroup=true` in the `Grid.tsx` file, after proving it wasn't afecting the app.
+
+To replace the default "React App" that shows on the tab for this window, i went directly to the `index.html` and change the `<title>`.
+
+Finally to add a Title, I went to `App.tsx` and add an `<h1>`.
+
